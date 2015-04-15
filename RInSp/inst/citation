@@ -1,0 +1,19 @@
+citHeader("To cite the R package 'RInSP' in publications use:")
+citEntry(entry = "Article",
+  title        = "RInSp: an R package for the analysis of individual specialisation in resource use",
+              author = personList(as.person("Nicola Zaccarelli"),
+                                  as.person("Giorgio Mancinelli"),
+								                  as.person("Daniel I. Bolnick")),
+  journal      = "Methods in Ecology and Evolution",
+  year         = "2013",
+  volume       = "4",
+  number       = "11",
+  pages        = "1018--1023",
+  url          = "http://dx.doi.org/10.1111/2041-210X.12079",
+
+  textVersion  =
+  paste("Zaccarelli, N., Mancinelli G., Bolnick, D.I. (2013).",
+        "RInSp: an R package for the analysis of individual specialisation in resource use.",
+        "Methods in Ecology and Evolution 4(11): 1018-1023.",
+        "doi: 10.1111/2041-210X.12079")
+)
